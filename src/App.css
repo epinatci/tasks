@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Phudu:wght@300&family=Raleway&display=swap');
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.task-create {
+  width: 450px;
+}
+
+.task-update{
+  width: 100%;
+}
+.task-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.task-label {
+  margin: 10px 0px;
+  color: rgb(51, 79, 8);
+}
+
+.task-input {
+  padding: 10px;
+  border: 1px solid green;
+  border-radius: 20px;
+}
+
+.task-btn {
+  margin: 10px 0;
+  padding: 10px;
+  border: 1px solid green;
+  background-color: green;
+  color: white;
+  border-radius: 20px;
+  font-size: 20px;
+}
+
+.update-btn{
+  background-color: blue;
+}
+
+.task-list{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.task-show {
+
+  font-family: 'Raleway', sans-serif;
+  border: 3px solid green;
+  border-radius: 30px;
+  width: 350px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 15px;
+  background: rgb(0, 255, 0, 0.7);
+}
+
+.task-title{
+  margin-bottom: 0px;
+}
+
+.buttons {
+  width: 240px;
+  
+}
+.delete-btn {
+  padding: 2%;
+  margin: 2%;
+  font-size: 15px;
+  width: 110px;
+  border: none;
+  border-radius: 30px;
+  background-color: rgb(239, 38, 38);
+  color: white;
+
+}
+
+.update-btn {
+  padding: 2%;
+  margin: 2%;
+  font-size: 15px;
+  width: 110px;
+  border: none;
+  border-radius: 30px;
+  background-color: rgb(36, 126, 155);
+  color: white;
+
+}
+
+i{
+  font-size: 15px;
+  margin:  auto 10%;
+}
+
